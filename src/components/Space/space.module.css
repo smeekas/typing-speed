@@ -1,0 +1,6 @@
+.space{
+    border-bottom: 1px solid red;
+    /* box-shadow: inset 0 0 2px #0f0; */
+    padding: 0;
+    margin-bottom: -1px;
+}

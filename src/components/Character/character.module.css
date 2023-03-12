@@ -1,0 +1,31 @@
+.white {
+    color: white;
+}
+
+.wrong {
+    color: #c84855;
+}
+
+.default {
+    color: #626467;
+}
+
+.character {
+    /* padding-right:0.001rem; */
+    padding: 0;
+    /* margin-left: -4px; */
+    /* display: inline-flex; */
+
+    width: 14px;
+    /* border: 1px solid red; */
+    /* padding-right: 0.05 rem; */
+}
+
+/* span{
+    padding: 0;
+    margin: 0;
+} */
+.current{
+    border-bottom: 1px solid yellow;
+    /* background-color: rgba(238, 255, 0, 0.328); */
+}
