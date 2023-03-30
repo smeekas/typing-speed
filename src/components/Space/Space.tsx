@@ -5,8 +5,10 @@ type SpacePropType={
 }
 function Space(props:SpacePropType) {
   return (
-    <span className={props.hasCursor ? styles.space:""} >&nbsp;&nbsp;&nbsp;</span>
+    <span className={ ` ${styles.default} ${props.hasCursor ? styles.space:""}`} ></span>
   )
 }
 
 export default Space
+
+//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

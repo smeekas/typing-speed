@@ -4,11 +4,11 @@ import style from './word.module.css'
 type WordPropType={
     word:string,
     active:boolean,
-    activeWord:{
-        word:string,
-        index:number,
-        wordIndex:number
-    }
+    // activeWord:{
+    //     word:string,
+    //     index:number,
+    //     wordIndex:number
+    // }
     charState:number[]
     hasCursor:boolean
     cursor:number

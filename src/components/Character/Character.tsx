@@ -6,7 +6,6 @@ type CharacterPropType={
     cursorLocation:boolean
 }
 function Character(props:CharacterPropType) {
-  // console.log(props.state);
   function getClassName(){
     if(props.state==0){
       return styles.default
@@ -20,7 +19,9 @@ function Character(props:CharacterPropType) {
   }
   // const className=;
   return (
+    <>
     <span className={`${styles.character} ${props.cursorLocation && styles.current} ${getClassName()}`}>{props.char} </span>
+    </>
   )
 }
 
